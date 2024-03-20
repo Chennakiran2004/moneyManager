@@ -144,7 +144,7 @@ class MoneyManger extends Component {
                 TITLE
               </label>
               <input
-                id="AMOUNT"
+                id="title"
                 className="input-element"
                 placeholder="TITLE"
                 type="text"
