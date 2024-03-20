@@ -1,0 +1,240 @@
+.money-details-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .money-details-main-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.balance-amount-container {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  border-radius: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 16px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .balance-amount-container {
+    width: 30%;
+    margin-right: 0px;
+  }
+}
+
+.image {
+  height: 65px;
+  width: 65px;
+  margin: 25px;
+}
+
+.details-text {
+  color: #475569;
+  font-size: 12px;
+  font-family: 'Roboto';
+  line-height: 1.7;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .details-text {
+    font-size: 14px;
+  }
+}
+
+.details-money {
+  color: #475569;
+  font-size: 18px;
+  font-family: 'Roboto';
+  line-height: 1.3;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .details-money {
+    font-size: 24px;
+  }
+}
+
+.income-container {
+  background-color: #cffafe;
+  border-color: #06b6d4;
+}
+
+.expenses-container {
+  background-color: #ede9fe;
+  border-color: #7c3aed;
+}
+
+.transactions-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .transactions-details-container {
+    flex-direction: row;
+  }
+}
+
+.transaction-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 424px;
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .transaction-form {
+    width: 40%;
+    padding-right: 45px;
+    padding-left: 45px;
+  }
+}
+
+.transaction-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .transaction-heading {
+    font-size: 22px;
+  }
+}
+
+.label {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 12px;
+  text-align: start;
+  line-height: 1.4;
+}
+
+.input-element {
+  color: #1e293b;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  border: 1px solid #d7dfe9;
+  border-radius: 2px;
+  width: 100%;
+  height: 40px;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  min-width: 150px;
+}
+
+.button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  min-width: 25px;
+  border-radius: 6px;
+  border: none;
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 24px;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.history-transaction-container {
+  width: 100%;
+  min-height: 326px;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 24px;
+  margin-top: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .history-transaction-container {
+    width: 55%;
+    min-height: 424px;
+    padding-top: 24px;
+    padding-left: 28px;
+    padding-right: 41px;
+    padding-bottom: 40px;
+    margin-top: 0px;
+    margin-left: 32px;
+  }
+}
+
+.transaction-table-container {
+  border-radius: 8px;
+  height: 100%;
+}
+
+.transaction-table-list {
+  padding-left: 0px;
+  margin: 0px;
+}
+
+.table-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 48px;
+  list-style-type: none;
+  border: 1px solid #cbd5e1;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .table-list {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+.table-heading {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  width: 30%;
+  border-right: none;
+}
+
+@media screen and (min-width: 768px) {
+  .table-heading {
+    font-size: 16px;
+  }
+}
