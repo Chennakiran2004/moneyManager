@@ -194,7 +194,7 @@ class MoneyManger extends Component {
                     <TransactionItem
                       transactionDetails={eachTransaction}
                       key={eachTransaction.id}
-                      onDeleteTransaction={this.deleteTransaction}
+                      deleteTransaction={this.deleteTransaction}
                     />
                   ))}
                 </ul>
